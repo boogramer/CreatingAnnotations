@@ -5,6 +5,7 @@ public class TestPuppies {
         Cat myCat = new Cat("July");
         Puss myPussy = new Puss("Patito Onicha");
         //System.out.println(CreatingAnnotations.validador(myPussy));
-        System.out.println(CreatingAnnotations.printActiob(myPussy));
+        //System.out.println(CreatingAnnotations.printActiob(myPussy));
+        System.out.println(CreatingAnnotations.nameToUpperCase(myPussy));
     }
 }

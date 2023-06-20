@@ -24,7 +24,7 @@ public class CreatingAnnotations {
         return false;
     }
 
-  public static boolean nameToUpperCase(Object objeto){
+  public static boolean nameToUpperCase(Object objeto) throws IllegalAccessException {
       for (Field field : objeto.getClass().getDeclaredFields()) {
           if (field.isAnnotationPresent(ImportantString.class)) {
               Object objectValue = field.get(objeto);
